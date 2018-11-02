@@ -1,0 +1,16 @@
+Regras:
+
+OK    Apenas alunos ativos podem criar um UFFMail
+    As opções de UFFMail devem ser geradas de acordo com o nome do aluno
+    Um aluno só pode ter um UFFMail
+    Utilizar Orientação a Objetos para resolver o problema
+    Livre escolha para a linguagem a ser utilizada
+
+Dicas
+
+    Quais classes são necessárias para resolver este problema?
+    Desenvolva sempre buscando o menor acoplamento possível entre as classes
+    Seu software deve estar preparado para eventuais mudanças
+    A geração de opções para o usuário fica a seu critério
+    Não é necessário consumir nenhuma API para resolver o problema, basta retornar as mensagens e fingir que o e-mail foi criado, faça o mesmo para o SMS
+    Você pode atualizar o csv preenchendo a coluna de uffmail quando um e-mail for criado, mas isso é opcional
