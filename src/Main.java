@@ -123,7 +123,7 @@ public class Main {
 
 	static void sendSMS(String telefone, String Chave) { // Função que chama a API para envio de SMS
 		// enviaSMS(telefone,"sua senha para acesso no UFFmail é " + Chave.toString());
-		System.out.println("sua senha para acesso no UFFmail é " + Chave.toString());
+		System.out.println("SMS: sua senha para acesso no UFFmail é " + Chave.toString());
 	}
 
 	static void setAlunoCSV(Aluno aluno, String Key) { // Salva o novo UFFmail no arquivo com dados dos alunos.
@@ -164,6 +164,7 @@ public class Main {
 						File newFile = new File(alunosTempFile);
 						oldFile.delete();
 						newFile.renameTo(oldFile);
+						
 					}
 				} catch (IOException e) {
 					e.printStackTrace();
