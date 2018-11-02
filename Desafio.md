@@ -1,8 +1,3 @@
-# Desafios
-
-Escolha um dos desafios abaixo e nos mande o link do seu github com a resolução. Fique à vontade para escolher
-qualquer um dos dois desafios, faça aquele que você vá conseguir fazer com mais qualidade.
-
 ## Desafio 1
 
 Sua primeira tarefa como estagiário será implementar a criação de contas de e-mail para alunos da UFF. Para isso,
